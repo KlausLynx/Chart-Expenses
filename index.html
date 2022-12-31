@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<script src="main.js" defer></script>
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+    <header>
+      <div class="bal">
+        <div class="bal__1">
+          <p class="bal__words">My balance</p> 
+          <p class="bal__digits">$921.48</p>
+        </div>
+        <div class="bal__2">
+          <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Spending - Last 7 days</h1>
+      <div class="chart" id="chart-wrapper">
+        <canvas id="chart"></canvas>
+      </div>
+
+      <hr>
+
+      <div class="outer">
+        <div class="outer__left">
+          <p class="words">Total this month</p> 
+          <p class="left__digits">$478.33</p>
+        </div>
+        <div class="outer__right">
+          <p class="right__digits">+2.4%</p>
+          <p class="right__words">from last month</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://mailchi.mp/347456bcdb67/the-year">Klaus Lynx</a>.
+    </footer>
+</body>
+</html>

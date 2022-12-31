@@ -1,0 +1,94 @@
+@import url(https://fonts.google.com/specimen/Rubik);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8e9dd;
+    min-width: 600px;
+    font-family: 'Rubik', 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.container {
+    display: grid;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    background-color: #fffaf5;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 550px;
+}
+
+.bal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ec775f;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 31%;
+    min-width: 550px;
+    margin: 2rem 3rem 3rem 3rem;
+    gap: 2rem;
+}
+
+.bal__1 {
+    color: #fffaf5;
+}
+
+.bal__words {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: 0.1px solid #93867b;
+    height: 1px;
+}
+
+.outer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outer__right {
+    margin-top: 1rem;
+}
+
+.left__digits { 
+    font-size: 3rem;
+    font-weight: 700;
+}
+.right__digits { 
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 3rem;
+}
+
+.words {
+    font-size: 15px;
+    color: #93867b;
+}
+
+.digits {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+a:any-link {
+    color: blue;
+}
